@@ -68,7 +68,7 @@ EMUGL_COMMON_CFLAGS += \
 
 endif # GOLDFISH_OPENGL_BUILD_FOR_HOST
 
-ifeq (true,$(BUILD_EMULATOR_OPENGL)) # Guest build
+ifeq (true,$(BUILD_EMULATOR_OPENGL_RNBOX )) # Guest build
 
 GOLDFISH_OPENGL_SHOULD_BUILD := true
 
@@ -110,7 +110,7 @@ endif
 #
 include $(GOLDFISH_OPENGL_PATH)/common.mk
 
-endif # BUILD_EMULATOR_OPENGL (guest build)
+endif # BUILD_EMULATOR_OPENGL_RNBOX (guest build)
 
 ifeq (true,$(GOLDFISH_OPENGL_SHOULD_BUILD))
 

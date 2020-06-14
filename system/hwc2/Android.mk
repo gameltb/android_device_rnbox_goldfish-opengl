@@ -34,11 +34,11 @@ emulator_hwcomposer_cflags += \
 emulator_hwcomposer_c_includes += \
     system/core/libsync \
     system/core/libsync/include \
-    device/generic/goldfish-opengl/system/include \
-    device/generic/goldfish-opengl/system/OpenglSystemCommon \
-    device/generic/goldfish-opengl/host/include/libOpenglRender \
-    device/generic/goldfish-opengl/shared/OpenglCodecCommon \
-    device/generic/goldfish-opengl/system/renderControl_enc
+    device/rnbox/goldfish-opengl/system/include \
+    device/rnbox/goldfish-opengl/system/OpenglSystemCommon \
+    device/rnbox/goldfish-opengl/host/include/libOpenglRender \
+    device/rnbox/goldfish-opengl/shared/OpenglCodecCommon \
+    device/rnbox/goldfish-opengl/system/renderControl_enc
 
 emulator_hwcomposer_relative_path := hw
 
